@@ -1,0 +1,116 @@
+.page_main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 35px 0;
+    margin-top: 100px;
+}
+.page_left {
+    width: 200px;
+    float: left;
+}
+.page_icon {
+    display: block;
+    width: 200px;
+    height: 90px;
+    background: #0081cc;
+}
+ul#menu {
+    padding-top: 5px;
+}
+ul#menu li {
+    display: block;
+    line-height: 25px;
+    font-size: 14px;
+    border-bottom: 1px solid #CCC;
+    text-indent: 50px;
+    padding: 15px 0 15px 0;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.prosearch {
+    width: 200px;
+    height: 38px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.page_right {
+    width: 750px;
+    float: right;
+}
+.location_nav {
+    background: url(../images/location_bg.png) left center no-repeat;
+    width: 750px;
+    height: 30px;
+    margin-bottom: 15px;
+    line-height: 32px;
+    text-indent: 20px;
+    overflow: hidden;
+}
+.location_nav a {
+    padding: 0 10px;
+}
+.list_products_description {
+    font-size: 14px;
+    line-height: 22px;
+}
+.list_products_tip {
+    border: 1px #CCC dotted;
+    padding: 10px 0;
+    border-left: none;
+    border-right: none;
+    margin: 50px 0 20px 0;
+    text-indent: 3px;
+}
+.list_products_tb {
+    border-bottom: 2px solid #0081cc;
+    padding-bottom: 15px;
+}
+.tg {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #dddddd;
+    width: 750px;
+    text-align: center;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.tg td {
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 12px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    color: #444;
+    position: relative;
+}
+.tg td.td_prantid {
+    position: relative;
+}
+.tg td.td_prantid span.new_icon {
+    width: 34px;
+    height: 13px;
+    background: url(../images/new_icon.png) center center no-repeat;
+    display: block;
+    margin-left: 3px;
+}
+.td_show {
+    position: absolute;
+    bottom: -1px;
+    left: -152px;
+    border: 1px solid #dddddd;
+    z-index: 1;
+    display: none;
+    cursor: pointer;
+}
